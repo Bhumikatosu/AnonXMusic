@@ -205,7 +205,7 @@ async def start_comm(client, message: Message, _):
                 await message.reply_text("🌸  Wᴇʟᴄᴏᴍᴇ  Tᴏ  Bᴏᴛ  🌸")
                 await message.reply_sticker("CAACAgUAAxkBAAEJpvVkrBZAI283MlvuC_4NOF2W626gEgACeQQAArOPwFYJ549FcwhaRC8E")
                 await message.reply_photo(
-                    photo=config.START_IMG_URL,
+                    photo=f"https://te.legra.ph/file/424dab41b3be5297d4360.jpg",
                     caption=_["start_2"].format(
                         config.MUSIC_BOT_NAME
                     ),
